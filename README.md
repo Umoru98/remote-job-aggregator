@@ -1,4 +1,4 @@
-# 🚀 Remote Job Scraper & Email Notifier
+# 🚀 Remote Job Aggregator
 
 ## Table of Contents
 - [About](#about)
@@ -27,7 +27,7 @@
 
 ## 📄 About
 
-**Remote Job Scraper & Email Notifier** is a robust **Node.js-based** web scraping and job notification system that automates the discovery of remote job postings. It uses **Puppeteer** for headless browser automation and **Mongoose** for storing jobs in a MongoDB database.
+**Remote Job Aggregator** is a robust **Node.js-based** web scraping and job notification system that automates the discovery of remote job postings. It uses **Puppeteer** for headless browser automation and **Mongoose** for storing jobs in a MongoDB database.
 
 The system:
 - Prevents duplicate entries.
@@ -73,7 +73,7 @@ The system:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Umoru98/remote-job-aggregator.git
-   cd job-scraper-api
+   cd remote-job-aggregator
    ```
 
 2. **Install dependencies:**
@@ -194,7 +194,7 @@ Jobs are stored with the following fields:
 
 #### Solutions:
 
-  - Ensure correct email credentials in .env.
+  - Ensure correct email credentials in `.env`.
 
   - Use an App Password for Gmail (not your account password).
 
